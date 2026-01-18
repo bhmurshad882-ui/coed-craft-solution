@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact CodeCraft Solutions for professional web development, Python projects, database design, and C++ application services. Available on WhatsApp and Fiverr.">
+    <meta name="keywords"
+        content="contact developer, hire freelancer, web development services, Python developer contact">
+    <title>Contact - CodeCraft Solutions | Get in Touch for Your Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span>CodeCraft</span> Solutions
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="hero" style="min-height: 50vh; padding-top: 120px; padding-bottom: 60px;">
+        <div class="container" style="text-align: center; position: relative; z-index: 1;">
+            <h1 style="color: white;">Get in Touch</h1>
+            <p style="color: rgba(255,255,255,0.9); font-size: 1.25rem; max-width: 700px; margin: 0 auto;">Have a
+                project in mind? Let's discuss how I can help bring your vision to life</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start;">
+
+                <!-- Contact Form -->
+                <div class="reveal">
+                    <h2>Send a Message</h2>
+                    <p>Fill out the form below and I'll get back to you as soon as possible.</p>
+
+                    <form id="contact-form" style="margin-top: 2rem;">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name *</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="form-input">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service" class="form-label">Service Interested In *</label>
+                            <select id="service" name="service" class="form-select" required>
+                                <option value="">Select a service</option>
+                                <option value="web">Web Development</option>
+                                <option value="python">Python Projects</option>
+                                <option value="database">Database Design</option>
+                                <option value="cpp">C++ Applications</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="budget" class="form-label">Budget Range</label>
+                            <select id="budget" name="budget" class="form-select">
+                                <option value="">Select budget range</option>
+                                <option value="<500">Less than $500</option>
+                                <option value="500-1000">$500 - $1,000</option>
+                                <option value="1000-2500">$1,000 - $2,500</option>
+                                <option value="2500+">$2,500+</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="form-label">Project Details *</label>
+                            <textarea id="message" name="message" class="form-textarea" required
+                                placeholder="Tell me about your project..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message 📧</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="reveal">
+                    <h2>Contact Information</h2>
+                    <p>Prefer to reach out directly? Use any of the methods below:</p>
+
+                    <div style="margin-top: 2rem;">
+                        <div class="card" style="margin-bottom: 1.5rem;">
+                            <div style="display: flex; align-items: center; gap: 1rem;">
+                                <div
+                                    style="width: 50px; height: 50px; background: var(--gradient-brand); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; color: white;">
+                                    📧</div>
+                                <div>
+                                    <h4 style="margin-bottom: 0.25rem;">Email</h4>
+                                    <a href="mailto:shadabsm6637@gmail.com"
+                                        style="color: var(--color-primary); font-weight: 500;">shadabsm6637@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" style="margin-bottom: 1.5rem;">
+                            <div style="display: flex; align-items: center; gap: 1rem;">
+                                <div
+                                    style="width: 50px; height: 50px; background: var(--gradient-brand); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; color: white;">
+                                    📞</div>
+                                <div>
+                                    <h4 style="margin-bottom: 0.25rem;">Phone</h4>
+                                    <a href="tel:03001221450"
+                                        style="color: var(--color-primary); font-weight: 500;">0300-1221450</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" style="margin-bottom: 1.5rem; cursor: pointer;"
+                            onclick="document.querySelector('.whatsapp-btn').click()">
+                            <div style="display: flex; align-items: center; gap: 1rem;">
+                                <div
+                                    style="width: 50px; height: 50px; background: var(--gradient-brand); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; color: white;">
+                                    📱</div>
+                                <div>
+                                    <h4 style="margin-bottom: 0.25rem;">WhatsApp</h4>
+                                    <button class="whatsapp-btn"
+                                        style="color: var(--color-primary); font-weight: 500; background: none; border: none; padding: 0; cursor: pointer;">Chat
+                                        Now on WhatsApp</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" style="margin-bottom: 1.5rem; cursor: pointer;"
+                            onclick="document.querySelector('.fiverr-btn').click()">
+                            <div style="display: flex; align-items: center; gap: 1rem;">
+                                <div
+                                    style="width: 50px; height: 50px; background: var(--gradient-brand); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; color: white;">
+                                    ⭐</div>
+                                <div>
+                                    <h4 style="margin-bottom: 0.25rem;">Fiverr</h4>
+                                    <button class="fiverr-btn"
+                                        style="color: var(--color-primary); font-weight: 500; background: none; border: none; padding: 0; cursor: pointer;">Hire
+                                        on Fiverr</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" style="margin-top: 2rem; background: var(--color-gray-50);">
+                        <h4>Business Hours</h4>
+                        <p style="margin: 0.5rem 0;">Monday - Friday: 9:00 AM - 8:00 PM</p>
+                        <p style="margin: 0.5rem 0;">Saturday: 10:00 AM - 6:00 PM</p>
+                        <p style="margin: 0.5rem 0;">Sunday: Available for urgent projects</p>
+                        <p style="margin-top: 1rem; font-size: 0.9375rem; color: var(--color-gray-600);">📍 Pakistan
+                            (PKT - UTC+5)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Quick answers to common questions</p>
+            </div>
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="card reveal" style="margin-bottom: 1rem;">
+                    <h4>How quickly can you start my project?</h4>
+                    <p style="margin: 0;">Most projects can be started within 1-2 business days after initial
+                        consultation and agreement on requirements.</p>
+                </div>
+                <div class="card reveal" style="margin-bottom: 1rem;">
+                    <h4>What are your payment terms?</h4>
+                    <p style="margin: 0;">I typically work with 50% upfront and 50% upon completion. For larger
+                        projects, we can arrange milestone-based payments.</p>
+                </div>
+                <div class="card reveal" style="margin-bottom: 1rem;">
+                    <h4>Do you provide ongoing support after delivery?</h4>
+                    <p style="margin: 0;">Yes! All projects include free support for bug fixes for 30 days after
+                        delivery. Extended support packages are also available.</p>
+                </div>
+                <div class="card reveal" style="margin-bottom: 1rem;">
+                    <h4>Can you work with my existing code/project?</h4>
+                    <p style="margin: 0;">Absolutely! I'm experienced in working with existing codebases and can help
+                        with debugging, optimization, or adding new features.</p>
+                </div>
+                <div class="card reveal" style="margin-bottom: 1rem;">
+                    <h4>What if I need revisions?</h4>
+                    <p style="margin: 0;">All packages include revisions to ensure you're 100% satisfied. The number
+                        varies by package, with unlimited revisions on Professional and Enterprise packages.</p>
+                </div>
+                <div class="card reveal">
+                    <h4>Do you sign NDAs?</h4>
+                    <p style="margin: 0;">Yes, I'm happy to sign Non-Disclosure Agreements to protect your confidential
+                        information and project ideas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section">
+        <div class="container" style="text-align: center;">
+            <div class="reveal">
+                <h2>Ready to Start Your Project?</h2>
+                <p style="font-size: 1.25rem; max-width: 700px; margin: 0 auto 2rem;">Don't hesitate to reach out. I'm
+                    here to answer your questions and discuss your project needs!</p>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <button class="btn btn-primary whatsapp-btn">📱 Quick WhatsApp Chat</button>
+                    <button class="btn btn-secondary"
+                        onclick="document.getElementById('contact-form').scrollIntoView({behavior: 'smooth'})">📧 Fill
+                        Contact Form</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>CodeCraft Solutions</h3>
+                    <p>Professional freelance development services for web, Python, database, and C++ projects.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">💻</a>
+                        <a href="#" class="social-link">💼</a>
+                        <a href="#" class="social-link">🐦</a>
+                        <a href="#" class="social-link">📧</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="services.html#web">Web Development</a></li>
+                        <li><a href="services.html#python">Python Projects</a></li>
+                        <li><a href="services.html#database">Database Design</a></li>
+                        <li><a href="services.html#cpp">C++ Applications</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-links">
+                        <li>📞 0300-1221450</li>
+                        <li>📧 shadabsm6637@gmail.com</li>
+                        <li>📱 <a href="#" class="whatsapp-btn">WhatsApp</a></li>
+                        <li>⭐ <a href="#" class="fiverr-btn">Fiverr Profile</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2026</span> CodeCraft Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
